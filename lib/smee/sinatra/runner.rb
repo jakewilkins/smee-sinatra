@@ -116,7 +116,7 @@ module Smee::Sinatra
     end
 
     def target_port
-      ENV[TARGET_URL_PORT_ENV_KEY] || "3000"
+      ENV[TARGET_URL_PORT_ENV_KEY] || "9292"
     end
 
     def target_scheme
